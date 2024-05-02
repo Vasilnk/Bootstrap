@@ -1,0 +1,95 @@
+
+.navbar{
+    background-color: #101233;
+   
+  
+    
+}
+.collapse{
+    font-family: sans-serif;
+    padding: 7px;
+    font-size: medium;
+}
+.feel{
+    font-size: 91px;
+    font-family: fangsong;
+    font-weight: revert;
+    color: #812529;
+    display: flex;
+    justify-content: center;
+    margin-top: -425px;
+
+}
+.para-portion{
+    font-weight: 500;
+    font-size: 21px;
+  
+ 
+}
+@media (max-width:768px){
+    .feel{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 187px;
+    
+    }
+}
+.animation-img{
+    width: 200px;
+}
+@media (max-width:768px){
+    .animation-img{
+        width: 120px;
+    }
+}
+
+#paragraph{
+    padding-left: 105px;
+    padding-top: 151px;
+}
+@media (max-width:425px){
+    #paragraph{
+        padding-left: 20px;
+    padding-top: 25px;
+    }
+}
+#about-portion{
+    padding-top: 20px;
+    font-weight: 500;
+font-size:small; 
+width: 100%; 
+height: min-content;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ justify-content: space-between;
+}
+span i:nth-child(even){
+    margin-left: 10px;
+}
+span i:nth-child(3){
+    margin-left: 10px;
+}
+span i{
+    padding-bottom: 10px;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+.span{
+    border-radius: 3px;
+    margin: 1px;
+    background-color: white;
+    width: 34px;
+    margin-bottom: 6px;
+    height: 5px;
+}
+#animation-portion{
+    background-color: rgb(47, 193, 222); height: 948px;padding-top: 170px;
+
+}
+@media(min-width:1024px){
+    #animation-portion{
+        height: auto;
+    }
+}
